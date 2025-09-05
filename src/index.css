@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+
+@layer utilities {
+  @media (min-width: 768px) {
+    .my-container {
+    @apply container mx-auto px-40 py-16;
+  }
+  }
+}
